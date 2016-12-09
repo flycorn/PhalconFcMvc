@@ -9,13 +9,4 @@ namespace App\Modules\Frontend\Tasks;
 use App\Providers\TaskProvider;
 class MainTask extends TaskProvider
 {
-    public function mainAction()
-    {
-        echo "\nThis is the default task and the default action \n";
-    }
-
-    public function testAction()
-    {
-        echo "\nI will get printed too!\n";
-    }
 }

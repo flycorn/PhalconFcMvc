@@ -9,8 +9,4 @@ namespace App\Modules\Backend\Tasks;
 use App\Providers\TaskProvider;
 class MainTask extends TaskProvider
 {
-    public function mainAction()
-    {
-        echo '主任务';
-    }
 }
