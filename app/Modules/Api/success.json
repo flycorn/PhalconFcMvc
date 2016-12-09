@@ -1,0 +1,115 @@
+{
+  "status": "successful",
+  "correct": {
+    "status_code": "200",
+    "message": "请求成功!",
+    "data": [
+      {
+        "request_id": 1,
+        "requestId": "d835d814-0158-1000-c200-006000000090",
+        "title": "Farm Heroes Super Saga",
+        "description": "The Cropsies are back and they're bigger than ever! Rancid Raccoon is up to his old tricks again. ",
+        "icon": {},
+        "screenshots": {},
+        "landingURL": "http://play.king.com/click?type=ad&idfa_raw=FC0F3445-0FCE-40EE-8646-3CA8BB2663EA&network=inmobi&countryCode=us&targetAppId=94&publisher=O1I3TVOH&site=&campaignName=Farm+Heroes+Super+Saga+US+iPhone&creativeName=NA-FHS_thanksgiving_banners_1200x&creativeSize=&linkId=94-1&CLICKID=d835d811-0158-1000-dffb-396b6d3c0096&pubId=&campaignType=bau&client_ip=3.0.119.0",
+        "landingPage": "http://play.king.com/click?type=ad&idfa_raw=FC0F3445-0FCE-40EE-8646-3CA8BB2663EA&network=inmobi&countryCode=us&targetAppId=94&publisher=O1I3TVOH&site=&campaignName=Farm+Heroes+Super+Saga+US+iPhone&creativeName=NA-FHS_thanksgiving_banners_1200x&creativeSize=&linkId=94-1&CLICKID=d835d811-0158-1000-dffb-396b6d3c0096&pubId=&campaignType=bau&client_ip=3.0.119.0",
+        "beaconUrl": "http://et-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-dffb-396b6d3c0096/-1/0/14/0/0/x/13856884/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FtZFFsDDogIW4InHqpVVN_odau1cL2M_FBwXAAAAAAAA8D8XIYtQGZ5Dcj8XAAAAAAAAAAAUBBIoBk5BVElWRRwUABQCHBwW_7-_6t_7k8pPFtPxnIq5pePRQAAWiMPc3obazNRXFQASAAA5FcA-IhQAFoj-5PO9VBQCGD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUCACwVAgBTBibWRRUAAA==/-1/AA==/7/daf628f1",
+        "eventTracking": {},
+        "ad_token": "4"
+      },
+      {
+        "request_id": 1,
+        "requestId": "d835d814-0158-1000-c200-006000000090",
+        "title": "Spider Solitaire Free by ",
+        "description": "The classic Spider Solitaire card game you played on Windows™ is now available to play on your Apple",
+        "icon": {
+          "width": 300,
+          "height": 300,
+          "url": "http://i.l.inmobicdn.net/uac-assets/395979574-us-1473713265298",
+          "aspectRatio": 1
+        },
+        "screenshots": {
+          "width": 1200,
+          "height": 628,
+          "url": "http://i.l.inmobicdn.net/adtools/53d31ef1-6a27-4055-8cd6-e49ea686f3da.jpeg",
+          "aspectRatio": 1.91
+        },
+        "landingURL": "https://itunes.apple.com/app/spider-solitaire-free-by-mobilityware/id395979574?mt=8",
+        "landingPage": "https://itunes.apple.com/app/spider-solitaire-free-by-mobilityware/id395979574?mt=8",
+        "beaconUrl": "http://et-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-df70-396d6af70096/-1/0/14/0/0/x/13698792/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FsYuFuDP1QEW4InHqpVVN7yZLZB8b2E_FBwXAAAAAAAA8D8Xoj2mluFoaD8XAAAAAAAAAAAUBBIoBk5BVElWRRwUABQCHBwW_7-_6t_7k8pPFtORmNr0pOPQQAAWiMPc3obazNRXFQASAAA5FcA-IhQAFoCrqO_RURQCGD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUCACwVAgBTBibGLhUAAA==/-1/AA==/7/14ecc36f",
+        "eventTracking": {
+          "1": {
+            "urls": [
+              "http://et-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-df70-396d6af70096/-1/0/14/0/0/x/13698792/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FsYuFuDP1QEW4InHqpVVN7yZLZB8b2E_FBwXAAAAAAAA8D8Xoj2mluFoaD8XAAAAAAAAAAAUBBIoBk5BVElWRRwUABQCHBwW_7-_6t_7k8pPFtORmNr0pOPQQAAWiMPc3obazNRXFQASAAA5FcA-IhQAFoCrqO_RURQCGD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUCACwVAgBTBibGLhUAAA==/-1/AA==/7/14ecc36f?m=1&ts=$TS"
+            ]
+          },
+          "8": {
+            "urls": [
+              "http://et-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-df70-396d6af70096/-1/0/14/0/0/x/13698792/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FsYuFuDP1QEW4InHqpVVN7yZLZB8b2E_FBwXAAAAAAAA8D8Xoj2mluFoaD8XAAAAAAAAAAAUBBIoBk5BVElWRRwUABQCHBwW_7-_6t_7k8pPFtORmNr0pOPQQAAWiMPc3obazNRXFQASAAA5FcA-IhQAFoCrqO_RURQCGD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUCACwVAgBTBibGLhUAAA==/-1/AA==/7/14ecc36f?m=8&ts=$TS",
+              "http://c-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-df70-396d6af70096/-1/0/14/1/0/x/13698792/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FsYuFuDP1QEW4InHqpVVN7yZLZB8b2E_FBwXAAAAAAAA8D8Xoj2mluFoaD8XAAAAAAAAAAAUBBIoBk5BVElWRRwUABQCHBwW_7-_6t_7k8pPFtORmNr0pOPQQAAWiMPc3obazNRXFQASAAA5FcA-IhQAFoCrqO_RURQCGD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUCACwVAgBTBibGLhUAAA==/-1/AA==/7/1abacc67?at=1&am=0&ct=$TS"
+            ]
+          },
+          "18": {
+            "urls": [
+              "https://imp.control.kochava.com/track/impression?campaign_id=kospider-free-ios-mobilityware54d021be48231242cb9e1fbe81&network_id=280&device_id=FC0F3445-0FCE-40EE-8646-3CA8BB2663EA&site_id=O1I3TVOH&creative_id=NA-ad_spider_1200x628&creative_size=0X0&impression_id=d835d811-0158-1000-df70-396d6af70096&device_ua=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+8_2+like+Mac+OS+X%29+AppleWebKit%2F600.1.4+%28KHTML%2C+like+Gecko%29+Version%2F8.0+Mobile%2F12D436+Safari%2F600.1.4&ip_address=3.0.119.0&event=view",
+              "http://et-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-df70-396d6af70096/-1/0/14/0/0/x/13698792/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FsYuFuDP1QEW4InHqpVVN7yZLZB8b2E_FBwXAAAAAAAA8D8Xoj2mluFoaD8XAAAAAAAAAAAUBBIoBk5BVElWRRwUABQCHBwW_7-_6t_7k8pPFtORmNr0pOPQQAAWiMPc3obazNRXFQASAAA5FcA-IhQAFoCrqO_RURQCGD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUCACwVAgBTBibGLhUAAA==/-1/AA==/7/14ecc36f?m=18&ts=$TS"
+            ]
+          },
+          "120": {
+            "urls": [
+              "http://au-cn.w.inmobi.com/c.asm/C/-1/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/-1/d835d811-0158-1000-dfaf-396c5a5cfb96/-1/0/-1/0/0/x/-1/NW/-1/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/BCoCOD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kAA==/-1/HBb_v7_q3_uTyk8W05GY2vSk49BAABbGLhbgiceqlVUWiMPc3obazNRXFQAVAhgGTkFUSVZFAA==/7/d0cf7d0b?m=120&ts=$TS"
+            ]
+          }
+        },
+        "ad_token": "5"
+      },
+      {
+        "request_id": 1,
+        "requestId": "d835d814-0158-1000-c200-006000000090",
+        "title": "Wish",
+        "description": "Over 100 million people are getting trending items 50-80% cheaper than what you pay.",
+        "icon": {
+          "width": 300,
+          "height": 300,
+          "url": "http://i.l.inmobicdn.net/uac-assets/530621395-us-1479181275754",
+          "aspectRatio": 1
+        },
+        "screenshots": {
+          "width": 1200,
+          "height": 627,
+          "url": "http://i.l.inmobicdn.net/adtools/bbcf95f9-157a-4339-aa98-1b6adba1605f.jpeg",
+          "aspectRatio": 1.91
+        },
+        "landingURL": "https://itunes.apple.com/app/wish-shopping-made-fun/id530621395?mt=8",
+        "landingPage": "https://itunes.apple.com/app/wish-shopping-made-fun/id530621395?mt=8",
+        "beaconUrl": "http://et-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-df73-396f6e8a0096/-1/0/15/0/0/x/13947036/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FoC23AUWgJvuAhbgiceqlVU3CtmxWKFAbj8UHhcAAAAAAADwPxcAAAAAAAAAABdPmN3mKNdEPxQCEigGTkFUSVZFHBQAFAIcHBb_v7_q3_uTyk8W0-WYuq2k489AABaIw9zehtrM1FcVABIAADkVwD4iFAAW0O6i5uJRKD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUEABwYEDYuMzYwMDA2MDYxNDdFLTQcFQIAABwVAgBTBiaAttwFFQAA/-1/AA==/7/5e4964df",
+        "eventTracking": {
+          "1": {
+            "urls": [
+              "http://et-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-df73-396f6e8a0096/-1/0/15/0/0/x/13947036/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FoC23AUWgJvuAhbgiceqlVU3CtmxWKFAbj8UHhcAAAAAAADwPxcAAAAAAAAAABdPmN3mKNdEPxQCEigGTkFUSVZFHBQAFAIcHBb_v7_q3_uTyk8W0-WYuq2k489AABaIw9zehtrM1FcVABIAADkVwD4iFAAW0O6i5uJRKD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUEABwYEDYuMzYwMDA2MDYxNDdFLTQcFQIAABwVAgBTBiaAttwFFQAA/-1/AA==/7/5e4964df?m=1&ts=$TS"
+            ]
+          },
+          "8": {
+            "urls": [
+              "http://et-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-df73-396f6e8a0096/-1/0/15/0/0/x/13947036/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FoC23AUWgJvuAhbgiceqlVU3CtmxWKFAbj8UHhcAAAAAAADwPxcAAAAAAAAAABdPmN3mKNdEPxQCEigGTkFUSVZFHBQAFAIcHBb_v7_q3_uTyk8W0-WYuq2k489AABaIw9zehtrM1FcVABIAADkVwD4iFAAW0O6i5uJRKD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUEABwYEDYuMzYwMDA2MDYxNDdFLTQcFQIAABwVAgBTBiaAttwFFQAA/-1/AA==/7/5e4964df?m=8&ts=$TS",
+              "http://c-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-df73-396f6e8a0096/-1/0/15/1/0/x/13947036/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FoC23AUWgJvuAhbgiceqlVU3CtmxWKFAbj8UHhcAAAAAAADwPxcAAAAAAAAAABdPmN3mKNdEPxQCEigGTkFUSVZFHBQAFAIcHBb_v7_q3_uTyk8W0-WYuq2k489AABaIw9zehtrM1FcVABIAADkVwD4iFAAW0O6i5uJRKD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUEABwYEDYuMzYwMDA2MDYxNDdFLTQcFQIAABwVAgBTBiaAttwFFQAA/-1/AA==/7/d0107c25?at=1&am=0&ct=$TS",
+              "https://app.appsflyer.com/id530621395?pid=inmobi_int&click_id=d835d811-0158-1000-df73-396f6e8a0096&idfa=FC0F3445-0FCE-40EE-8646-3CA8BB2663EA"
+            ]
+          },
+          "18": {
+            "urls": [
+              "https://impression.appsflyer.com/id530621395?pid=inmobi_int&click_id=d835d811-0158-1000-df73-396f6e8a0096&idfa=FC0F3445-0FCE-40EE-8646-3CA8BB2663EA",
+              "http://et-cn.w.inmobi.com/c.asm/C/t/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/eyJVSUQiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEiLCJJREEiOiJGQzBGMzQ0NS0wRkNFLTQwRUUtODY0Ni0zQ0E4QkIyNjYzRUEifQ~~/d835d811-0158-1000-df73-396f6e8a0096/-1/0/15/0/0/x/13947036/NW/2t/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/FoC23AUWgJvuAhbgiceqlVU3CtmxWKFAbj8UHhcAAAAAAADwPxcAAAAAAAAAABdPmN3mKNdEPxQCEigGTkFUSVZFHBQAFAIcHBb_v7_q3_uTyk8W0-WYuq2k489AABaIw9zehtrM1FcVABIAADkVwD4iFAAW0O6i5uJRKD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kFAISPBUEABwYEDYuMzYwMDA2MDYxNDdFLTQcFQIAABwVAgBTBiaAttwFFQAA/-1/AA==/7/5e4964df?m=18&ts=$TS"
+            ]
+          },
+          "120": {
+            "urls": [
+              "http://au-cn.w.inmobi.com/c.asm/C/-1/ef7lweg1r1/1blu/u/2m/ba/u/0/0/0/-1/d835d811-0158-1000-dfb0-396e945ce696/-1/0/-1/0/0/x/-1/NW/-1/0/api/3.0.0/dir/Y29tLmlubW9iaS50ZXN0/BCoCOD1wZXJmLWFkcG9vbC1za3lob29rcHJvZDUwMTRfcGVyZl9oa2cxX3BlcmYtYWRwb29sX3NreWhvb2twcm9kAA==/-1/HBb_v7_q3_uTyk8W0-WYuq2k489AABaAttwFFuCJx6qVVRaIw9zehtrM1FcVABUCGAZOQVRJVkUA/7/a5249c1e?m=120&ts=$TS"
+            ]
+          }
+        },
+        "ad_token": "6"
+      }
+    ]
+  }
+}

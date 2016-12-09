@@ -1,0 +1,42 @@
+//        $data = [
+//            'app' => [
+//                'id' => '1463152075376',
+//                'bundle' => 'com.inmobi.test',
+//            ],
+//            'imp' => [
+//                'native' => [
+//                    'layout' => 0,
+//                ],
+//                'secure' => 0,
+//                'trackertype' => 'url_ping',
+//                'ext' => [
+//                    'ads' => 3,
+//                ]
+//            ],
+//            'device' => [
+//                'ifa' => 'FC0F3445-0FCE-40EE-8646-3CA8BB2663EA',
+//                'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D436 Safari/600.1.4',
+//                'ip' => '3.0.119.0',
+//                'geo' => [
+//                    'lat' => 40.7127,
+//                    'lon' => 74.0059,
+//                    'accu' => 0,
+//                ],
+//                'carrier' => 'ChinaUnicom',
+//                'connectiontype' => 2,
+//                'ext' => [
+//                    'orientation' => 1,
+//                ]
+//            ],
+//            'user' => [
+//                'yob' => 1990,
+//                'gender' => 'm',
+//                'keywords' => 'gamer',
+//                'ext' => [
+//                    'age' => 25
+//                ]
+//            ],
+//            'ext' => [
+//                'responseformat' => 'json',
+//            ]
+//        ];
