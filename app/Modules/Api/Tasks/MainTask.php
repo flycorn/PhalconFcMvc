@@ -9,4 +9,5 @@ namespace App\Modules\Api\Tasks;
 use App\Providers\TaskProvider;
 class MainTask extends TaskProvider
 {
+
 }
