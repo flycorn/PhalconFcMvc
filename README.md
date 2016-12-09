@@ -42,7 +42,9 @@ PhalconFcMvc/
      |      |      |      |      |----index
      |      |      |      |      |      |----index.phtml
      |      |      |      |----Module.php  //接口模块
-     |      |----Providers  //服务商
+     |      |----Providers  //供应商
+     |      |      |----ModuleProvider.php //模块供应商
+     |      |      |----TaskProvider.php //任务供应商
      |      |----Bootstrap.php  //应用入口
      |      |----CliTask.php  //cli任务应用
      |----bootstrap
