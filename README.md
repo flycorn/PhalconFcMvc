@@ -2,6 +2,7 @@
 
 >####基于C扩展框架Phalcon构建的mvc框架结构,目前已实现应用模块化、Cli处理每个模块的任务。
 
+<code>ps: [Phalcon框架安装教程](http://www.jianshu.com/p/8da93b1ff3f4)</code>
 
     框架结构如下：
 
