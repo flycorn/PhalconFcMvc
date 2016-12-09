@@ -61,9 +61,15 @@ PhalconFcMvc/
      |      |----img
      |      |----js
      |      |----temp
+     |----storage  //缓存
+     |      |----cache //缓存目录
+     |      |----logs //日志目录
+     |      |     |----app  //app日志目录
+     |      |     |----cli  //cli日志目录
      |----.htrouter.php
      |----.htaccess
 ```
 
 >1、composer update
+
 >2、创建storage目录，并设置777权限
