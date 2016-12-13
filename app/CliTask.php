@@ -56,14 +56,14 @@ class CliTask
         $this->module = ucfirst($this->module);
 
         //验证是否已传入模块
-        if(empty($this->module)) throw new Exception('请传入参数指定对应模块!');
+        if(empty($this->module)) throw new \Exception('请传入参数指定对应模块!');
 
         //获取模块Dir
         $moduleDir = APP_PATH.'/Modules/'.$this->module;
         //验证该模块是否已存在
-        if(!is_dir($moduleDir)) throw new Exception('该模块不存在!');
+        if(!is_dir($moduleDir)) throw new \Exception('该模块不存在!');
         //验证主任务是否存在
-        if(!is_file($moduleDir.'/Tasks/MainTask.php')) throw new Exception('主任务文件不存在!');
+        if(!is_file($moduleDir.'/Tasks/MainTask.php')) throw new \Exception('主任务文件不存在!');
 
         /**
          * 注册目录及命名空间
