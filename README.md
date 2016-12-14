@@ -20,6 +20,9 @@ PhalconFcMvc/
      |      |      |      |----Tasks //任务层
      |      |      |      |      |----MainTask.php //主任务
      |      |      |      |----Views //页面层
+     |      |      |      |      |----base //基础目录
+     |      |      |      |      |      |----error404.phtml //404错误页
+     |      |      |      |      |      |----error500.phtml //500错误页
      |      |      |      |      |----index
      |      |      |      |      |      |----index.phtml
      |      |      |      |----Module.php  //前台模块
@@ -30,6 +33,9 @@ PhalconFcMvc/
      |      |      |      |----Tasks //任务层
      |      |      |      |      |----MainTask.php //主任务
      |      |      |      |----Views //页面层
+     |      |      |      |      |----base //基础目录
+     |      |      |      |      |      |----error404.phtml //404错误页
+     |      |      |      |      |      |----error500.phtml //500错误页
      |      |      |      |      |----index
      |      |      |      |      |      |----index.phtml
      |      |      |      |----Module.php  //后台模块
@@ -40,11 +46,15 @@ PhalconFcMvc/
      |      |      |      |----Tasks //任务层
      |      |      |      |      |----MainTask.php //主任务
      |      |      |      |----Views //页面层
+     |      |      |      |      |----base //基础目录
+     |      |      |      |      |      |----error404.phtml //404错误页
+     |      |      |      |      |      |----error500.phtml //500错误页
      |      |      |      |      |----index
      |      |      |      |      |      |----index.phtml
      |      |      |      |----Module.php  //接口模块
      |      |----Providers  //供应商
      |      |      |----ModuleProvider.php //模块供应商
+     |      |      |----ControllerProvider.php //控制器供应商
      |      |      |----TaskProvider.php //任务供应商
      |      |----Bootstrap.php  //应用入口
      |      |----CliTask.php  //cli任务应用

@@ -1,7 +1,7 @@
 <?php
 namespace App\Providers;
 /**
- * 任务服务商
+ * 任务供应商
  * author: flycorn
  * email: ym1992it@163.com
  * time: 16/12/8 下午10:08

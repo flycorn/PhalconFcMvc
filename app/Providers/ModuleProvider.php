@@ -1,7 +1,7 @@
 <?php
 namespace App\Providers;
 /**
- * 模块服务商
+ * 模块供应商
  * author: flycorn
  * email: ym1992it@163.com
  * time: 16/12/6 上午8:35

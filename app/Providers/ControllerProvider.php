@@ -1,7 +1,7 @@
 <?php
 namespace App\Providers;
 /**
- * 控制器服务商
+ * 控制器供应商
  * author: flycorn
  * email: ym1992it@163.com
  * time: 16/12/14 下午12:04
