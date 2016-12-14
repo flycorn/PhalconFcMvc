@@ -94,12 +94,12 @@ class Bootstrap
                             'controller' => 1,
                             'action'     => 2,
                         ));
+                        $router->add($module_name.'/:controller/:action', array(
+                            'module'     => $k,
+                            'controller' => 1,
+                            'action'     => 2,
+                        ));
                     }
-                    $router->add($module_name.'/:controller/:action', array(
-                        'module'     => $k,
-                        'controller' => 1,
-                        'action'     => 2,
-                    ));
                     $index++;
                 }
 
