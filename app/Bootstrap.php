@@ -71,19 +71,17 @@ class Bootstrap
 
             $defaultModule = ''; //默认模块
             if(!empty($modules)){
-                $module_nums = count($modules);
-                $index = 1;
-                //设置路由模块
+
+                //设置路由模块归属
                 foreach ($modules as $k => $module)
                 {
-                    //判断是否默认
-                    if($module_nums == $index){
-                        $defaultModule = $k;
-                    }
                     //模块名称
                     $module_name = empty($module['name']) ? '' : '/'.$module['name'];
 
-                    if($module_nums != $index){
+                    //判断是否默认
+                    if($module['isDefault']){
+                        $defaultModule = $k;
+                    } else {
                         $router->add($module_name, array(
                             'module'     => $k,
                             'controller' => 1,
@@ -100,7 +98,6 @@ class Bootstrap
                             'action'     => 2,
                         ));
                     }
-                    $index++;
                 }
 
                 //设置默认模块
@@ -108,6 +105,7 @@ class Bootstrap
             }
             return $router;
         });
+
     }
 
     /**

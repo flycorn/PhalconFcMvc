@@ -11,16 +11,19 @@ return [
             'className' => 'App\Modules\Api\Module',
             'path'      => '../app/Modules/Api/Module.php',
             'name' => 'api',
+            'isDefault' => 0,
         ],
         'backend'  => [
             'className' => 'App\Modules\Backend\Module',
             'path'      => '../app/Modules/Backend/Module.php',
             'name' => 'admin',
+            'isDefault' => 0,
         ],
         'frontend' => [
             'className' => 'App\Modules\Frontend\Module',
             'path'      => '../app/Modules/Frontend/Module.php',
             'name' => '',
+            'isDefault' => 1,
         ],
     ]
 ];
