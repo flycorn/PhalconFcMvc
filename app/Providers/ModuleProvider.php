@@ -12,6 +12,7 @@ use Phalcon\DiInterface;
 use Phalcon\Events\Event;
 use Phalcon\Mvc\Dispatcher;
 use Phalcon\Mvc\Dispatcher\Exception as DispatcherException;
+use Phalcon\Mvc\Url as UrlResolver;
 use Phalcon\Mvc\View;
 use Phalcon\Mvc\View\Engine\Php as PhpEngine;
 use Phalcon\Mvc\View\Engine\Volt as VoltEngine;
@@ -36,6 +37,7 @@ abstract class ModuleProvider implements ModuleDefinitionInterface
     public function registerServices(DiInterface $di)
     {
         $moduleName = ucfirst($this->moduleName);
+
         //注册派遣器
         $di->set('dispatcher', function () use ($moduleName){
             $eventsManager = new EventsManager;
@@ -64,6 +66,15 @@ abstract class ModuleProvider implements ModuleDefinitionInterface
             $dispatcher->setEventsManager($eventsManager);
             return $dispatcher;
         });
+
+        //注册url
+        $di->set('url', function () use ($moduleName) {
+            //获取配置
+            $urlName = $this->getConfig()['modules'][lcfirst($moduleName)]['name'];
+            $url = new UrlResolver();
+            $url->setBaseUri($urlName ? '/'.$urlName.'/' : '/');
+            return $url;
+        }, true);
 
         //注册视图
         $di->set('view', function () use ($moduleName){
