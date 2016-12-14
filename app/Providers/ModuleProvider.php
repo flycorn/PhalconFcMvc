@@ -37,15 +37,30 @@ abstract class ModuleProvider implements ModuleDefinitionInterface
         $moduleName = ucfirst($this->moduleName);
         //注册派遣器
         $di->set('dispatcher', function () use ($moduleName){
-            //$eventsManager = new EventsManager;
-
-            //NotFound
-            //$class = 'App\Modules\\'.$moduleName.'\Plugins\NotFoundPlugin';
-            //$eventsManager->attach('dispatch:beforeException', new $class);
+            $eventsManager = new EventsManager;
+            //错误处理
+            $eventsManager->attach('dispatch:beforeException', function(Event $event, Dispatcher $dispatcher, \Exception $exception) use ($moduleName){
+                if ($exception instanceof DispatcherException) {
+                    switch ($exception->getCode()) {
+                        case Dispatcher::EXCEPTION_HANDLER_NOT_FOUND:
+                        case Dispatcher::EXCEPTION_ACTION_NOT_FOUND:
+                            $dispatcher->forward([
+                                'controller' => 'base',
+                                'action' => 'error404'
+                            ]);
+                            return false;
+                    }
+                }
+                $dispatcher->forward([
+                    'controller' => 'base',
+                    'action'     => 'error500'
+                ]);
+                return false;
+            });
 
             $dispatcher = new Dispatcher();
             $dispatcher->setDefaultNamespace('App\Modules\\'.$moduleName.'\Controllers\\');
-            //$dispatcher->setEventsManager($eventsManager);
+            $dispatcher->setEventsManager($eventsManager);
             return $dispatcher;
         });
 
