@@ -76,6 +76,7 @@ PhalconFcMvc/
      |      |----logs //日志目录
      |      |     |----app  //app日志目录
      |      |     |----cli  //cli日志目录
+     |----vendor //composer三方类库目录
      |----.htrouter.php
      |----.htaccess
 ```
