@@ -13,7 +13,6 @@ use Phalcon\Mvc\Dispatcher;
 use Phalcon\Mvc\View;
 use Phalcon\Mvc\View\Engine\Php as PhpEngine;
 use Phalcon\Mvc\View\Engine\Volt as VoltEngine;
-//use Phalcon\Mvc\Model\Metadata\Memory as MetaDataAdapter;
 use Phalcon\Session\Adapter\Files as SessionAdapter;
 use Phalcon\Events\Manager as EventsManager;
 use Phalcon\Logger\Adapter\File as FileAdapter;
@@ -129,20 +128,5 @@ abstract class ModuleProvider implements ModuleDefinitionInterface
             return $connection;
         });
 
-        //注册redis
-        $di->set('redis', function () {
-            $config = $this->getConfig();
-
-            $host = $config['redis']['host'];
-            $port = $config['redis']['port'];
-            $redis = new Redis();
-            $redis->connect($host, $port);
-
-            return $redis;
-        });
-
-//        $di->set('modelsMetadata', function () {
-//            return new MetaDataAdapter();
-//        });
     }
 }
